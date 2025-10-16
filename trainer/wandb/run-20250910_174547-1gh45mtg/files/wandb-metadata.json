@@ -1,0 +1,43 @@
+{
+  "os": "Linux-6.1.123+-x86_64-with-glibc2.35",
+  "python": "CPython 3.12.11",
+  "startedAt": "2025-09-10T17:45:47.312062Z",
+  "args": [
+    "--use_wandb"
+  ],
+  "program": "/content/drive/MyDrive/MA680/minimind/trainer/train_pretrain.py",
+  "codePath": "trainer/train_pretrain.py",
+  "codePathLocal": "train_pretrain.py",
+  "git": {
+    "remote": "https://github.com/jingyaogong/minimind.git",
+    "commit": "561979c7e34ed48bce320598952d892dce33ccd6"
+  },
+  "email": "amy.xiongxu@gmail.com",
+  "root": "/content/drive/MyDrive/MA680/minimind/trainer",
+  "host": "bfd5eedbb7fc",
+  "executable": "/usr/bin/python3",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "253055008768",
+      "used": "49715793920"
+    }
+  },
+  "memory": {
+    "total": "89631739904"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA A100-SXM4-40GB",
+      "memoryTotal": "42949672960",
+      "cudaCores": 6912,
+      "architecture": "Ampere",
+      "uuid": "GPU-b169a8f1-1414-47f7-06a5-9e8a814ef749"
+    }
+  ],
+  "cudaVersion": "12.4",
+  "writerId": "2b6vlnprsg32rvbemrop9w4pzx2kynvy"
+}

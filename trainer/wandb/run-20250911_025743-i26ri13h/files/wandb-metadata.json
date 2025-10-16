@@ -1,0 +1,45 @@
+{
+  "os": "Linux-6.1.123+-x86_64-with-glibc2.35",
+  "python": "CPython 3.12.11",
+  "startedAt": "2025-09-11T02:57:43.272856Z",
+  "args": [
+    "--data_path",
+    "../dataset/sft_aviationqa.jsonl",
+    "--use_wandb"
+  ],
+  "program": "/content/drive/MyDrive/MA680/minimind/trainer/train_full_sft.py",
+  "codePath": "trainer/train_full_sft.py",
+  "codePathLocal": "train_full_sft.py",
+  "git": {
+    "remote": "https://github.com/jingyaogong/minimind.git",
+    "commit": "561979c7e34ed48bce320598952d892dce33ccd6"
+  },
+  "email": "amy.xiongxu@gmail.com",
+  "root": "/content/drive/MyDrive/MA680/minimind/trainer",
+  "host": "fc591401006c",
+  "executable": "/usr/bin/python3",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "253055008768",
+      "used": "42567606272"
+    }
+  },
+  "memory": {
+    "total": "89631739904"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA A100-SXM4-40GB",
+      "memoryTotal": "42949672960",
+      "cudaCores": 6912,
+      "architecture": "Ampere",
+      "uuid": "GPU-6a45cc37-2c66-a606-3ae5-813c62b84f0f"
+    }
+  ],
+  "cudaVersion": "12.4",
+  "writerId": "iydv78wrtj4qiw9n901ng0zxtznkgfyi"
+}

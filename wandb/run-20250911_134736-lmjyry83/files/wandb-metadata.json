@@ -1,0 +1,45 @@
+{
+  "os": "Linux-6.1.123+-x86_64-with-glibc2.35",
+  "python": "CPython 3.12.11",
+  "startedAt": "2025-09-11T13:47:36.771216Z",
+  "args": [
+    "--model_mode",
+    "0",
+    "--use_wandb"
+  ],
+  "program": "/content/drive/My Drive/MA680/minimind/eval_minimind_model.py",
+  "codePath": "eval_minimind_model.py",
+  "codePathLocal": "eval_minimind_model.py",
+  "git": {
+    "remote": "https://github.com/jingyaogong/minimind.git",
+    "commit": "561979c7e34ed48bce320598952d892dce33ccd6"
+  },
+  "email": "amy.xiongxu@gmail.com",
+  "root": "/content/drive/My Drive/MA680/minimind",
+  "host": "8e0a91063211",
+  "executable": "/usr/bin/python3",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "253055008768",
+      "used": "52362108928"
+    }
+  },
+  "memory": {
+    "total": "89631739904"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA A100-SXM4-40GB",
+      "memoryTotal": "42949672960",
+      "cudaCores": 6912,
+      "architecture": "Ampere",
+      "uuid": "GPU-80e6a3ed-cb1b-b188-c017-dd98513feafb"
+    }
+  ],
+  "cudaVersion": "12.4",
+  "writerId": "o2nouf8792p81hmniy9b2r0g3v2l2slw"
+}

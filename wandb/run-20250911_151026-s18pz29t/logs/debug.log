@@ -1,0 +1,26 @@
+2025-09-11 15:10:26,856 INFO    MainThread:4266 [wandb_setup.py:_flush():81] Current SDK version is 0.21.3
+2025-09-11 15:10:26,858 INFO    MainThread:4266 [wandb_setup.py:_flush():81] Configure stats pid to 4266
+2025-09-11 15:10:26,860 INFO    MainThread:4266 [wandb_setup.py:_flush():81] Loading settings from /root/.config/wandb/settings
+2025-09-11 15:10:26,861 INFO    MainThread:4266 [wandb_setup.py:_flush():81] Loading settings from /content/drive/MyDrive/MA680/minimind/wandb/settings
+2025-09-11 15:10:26,862 INFO    MainThread:4266 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-09-11 15:10:26,863 INFO    MainThread:4266 [wandb_init.py:setup_run_log_directory():686] Logging user logs to /content/drive/MyDrive/MA680/minimind/wandb/run-20250911_151026-s18pz29t/logs/debug.log
+2025-09-11 15:10:26,863 INFO    MainThread:4266 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to /content/drive/MyDrive/MA680/minimind/wandb/run-20250911_151026-s18pz29t/logs/debug-internal.log
+2025-09-11 15:10:26,863 INFO    MainThread:4266 [wandb_init.py:init():813] calling init triggers
+2025-09-11 15:10:26,864 INFO    MainThread:4266 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'lora_name': 'None', 'out_dir': 'out', 'device': 'cpu', 'hidden_size': 512, 'num_hidden_layers': 8, 'use_moe': False, 'load': 0, 'model_mode': 0, 'temperature': 0.7, 'top_p': 0.85, 'max_new_tokens': 512, 'max_input_length': 1024, 'test_data_path': 'auto', 'max_eval_samples': 1000, 'eval_batch_size': 50, 'show_examples': 5, 'use_wandb': True, 'wandb_project': 'MiniMind-Evaluation', 'seed': 42, '_wandb': {}}
+2025-09-11 15:10:26,864 INFO    MainThread:4266 [wandb_init.py:init():854] starting backend
+2025-09-11 15:10:27,073 INFO    MainThread:4266 [wandb_init.py:init():857] sending inform_init request
+2025-09-11 15:10:27,081 INFO    MainThread:4266 [wandb_init.py:init():865] backend started and connected
+2025-09-11 15:10:27,086 INFO    MainThread:4266 [wandb_init.py:init():936] updated telemetry
+2025-09-11 15:10:27,184 INFO    MainThread:4266 [wandb_init.py:init():960] communicating run to backend with 90.0 second timeout
+2025-09-11 15:10:27,532 INFO    MainThread:4266 [wandb_init.py:init():1011] starting run threads in backend
+2025-09-11 15:10:28,166 INFO    MainThread:4266 [wandb_run.py:_console_start():2494] atexit reg
+2025-09-11 15:10:28,167 INFO    MainThread:4266 [wandb_run.py:_redirect():2342] redirect: wrap_raw
+2025-09-11 15:10:28,168 INFO    MainThread:4266 [wandb_run.py:_redirect():2411] Wrapping output streams.
+2025-09-11 15:10:28,169 INFO    MainThread:4266 [wandb_run.py:_redirect():2434] Redirects installed.
+2025-09-11 15:10:28,175 INFO    MainThread:4266 [wandb_init.py:init():1057] run started, returning control to user process
+2025-09-11 18:22:41,726 INFO    MainThread:4266 [wandb_run.py:_finish():2260] finishing run amy-xiongxu-embry-riddle-aeronautical-university/MiniMind-Evaluation/s18pz29t
+2025-09-11 18:22:41,730 INFO    MainThread:4266 [wandb_run.py:_atexit_cleanup():2459] got exitcode: 0
+2025-09-11 18:22:41,735 INFO    MainThread:4266 [wandb_run.py:_restore():2441] restore
+2025-09-11 18:22:41,736 INFO    MainThread:4266 [wandb_run.py:_restore():2447] restore done
+2025-09-11 18:22:42,439 INFO    MainThread:4266 [wandb_run.py:_footer_sync_info():3855] logging synced files

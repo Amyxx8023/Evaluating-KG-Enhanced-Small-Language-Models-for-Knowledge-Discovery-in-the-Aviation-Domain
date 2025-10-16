@@ -1,0 +1,26 @@
+开始模型评估...
+使用数据集: dataset/pretrain_hq.jsonl
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/wandb/sdk/lib/exit_hooks.py", line 41, in exc_handler
+    def exc_handler(
+
+KeyboardInterrupt
+
+Original exception was:
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/MA680/minimind/eval_minimind_model.py", line 572, in <module>
+    main()
+  File "/content/drive/MyDrive/MA680/minimind/eval_minimind_model.py", line 564, in main
+    evaluator.run_evaluation()
+  File "/content/drive/MyDrive/MA680/minimind/eval_minimind_model.py", line 494, in run_evaluation
+    metrics = self.evaluate_model()
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/content/drive/MyDrive/MA680/minimind/eval_minimind_model.py", line 324, in evaluate_model
+    test_data = self.load_test_data()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/content/drive/MyDrive/MA680/minimind/eval_minimind_model.py", line 148, in load_test_data
+    for line in f:
+                ^
+  File "<frozen codecs>", line 322, in decode
+KeyboardInterrupt

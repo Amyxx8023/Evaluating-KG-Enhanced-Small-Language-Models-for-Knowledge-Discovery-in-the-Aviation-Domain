@@ -1,0 +1,109 @@
+_wandb:
+    value:
+        cli_version: 0.22.2
+        e:
+            8rl4wtackrv9ldpsxbvdafo9vhaauhya:
+                args:
+                    - --model_mode
+                    - "1"
+                    - --model_path
+                    - out/full_sft_kg_enhanced_512.pth
+                    - --max_eval_samples
+                    - "2000"
+                    - --use_wandb
+                codePath: eval_minimind_model.py
+                codePathLocal: eval_minimind_model.py
+                cpu_count: 56
+                cpu_count_logical: 112
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "32212254720"
+                        used: "7343771648"
+                email: amy.xiongxu@gmail.com
+                executable: /root/miniconda3/bin/python
+                git:
+                    commit: 561979c7e34ed48bce320598952d892dce33ccd6
+                    remote: https://github.com/jingyaogong/minimind.git
+                gpu: NVIDIA GeForce RTX 3090
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 10496
+                      memoryTotal: "25769803776"
+                      name: NVIDIA GeForce RTX 3090
+                      uuid: GPU-6a0a461e-7592-f6a2-644a-7c48435425bd
+                host: autodl-container-5b074dad85-761d41d4
+                memory:
+                    total: "810969817088"
+                os: Linux-5.15.0-136-generic-x86_64-with-glibc2.35
+                program: /root/MA680/minimind/eval_minimind_model.py
+                python: CPython 3.12.3
+                root: /root/MA680/minimind
+                startedAt: "2025-10-12T07:35:07.430453Z"
+                writerId: 8rl4wtackrv9ldpsxbvdafo9vhaauhya
+        m: []
+        python_version: 3.12.3
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+            "2":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+            "3":
+                - 13
+                - 16
+            "4": 3.12.3
+            "5": 0.22.2
+            "6": 4.46.3
+            "12": 0.22.2
+            "13": linux-x86_64
+device:
+    value: cuda
+eval_batch_size:
+    value: 50
+hidden_size:
+    value: 512
+load:
+    value: 0
+lora_name:
+    value: None
+max_eval_samples:
+    value: 2000
+max_input_length:
+    value: 1024
+max_new_tokens:
+    value: 512
+model_mode:
+    value: 1
+model_path:
+    value: out/full_sft_kg_enhanced_512.pth
+num_hidden_layers:
+    value: 8
+out_dir:
+    value: out
+seed:
+    value: 42
+show_examples:
+    value: 5
+temperature:
+    value: 0.7
+test_data_path:
+    value: auto
+top_p:
+    value: 0.85
+use_moe:
+    value: false
+use_wandb:
+    value: true
+wandb_project:
+    value: MiniMind-Evaluation

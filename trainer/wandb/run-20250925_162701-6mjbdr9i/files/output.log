@@ -1,0 +1,11 @@
+LLM可训练总参数量：25.830 百万
+Epoch:[1/5](0/120068) loss:6.813 lr:0.000000550000 epoch_Time:41454.0min:
+Epoch:[1/5](100/120068) loss:6.631 lr:0.000000550000 epoch_Time:37900.0min:
+Epoch:[1/5](200/120068) loss:5.836 lr:0.000000550000 epoch_Time:37700.0min:
+Epoch:[1/5](300/120068) loss:5.441 lr:0.000000550000 epoch_Time:37695.0min:
+Epoch:[1/5](400/120068) loss:6.731 lr:0.000000549999 epoch_Time:37697.0min:
+Epoch:[1/5](500/120068) loss:6.808 lr:0.000000549999 epoch_Time:37683.0min:
+Epoch:[1/5](600/120068) loss:4.769 lr:0.000000549999 epoch_Time:37649.0min:
+Epoch:[1/5](700/120068) loss:6.808 lr:0.000000549998 epoch_Time:37627.0min:
+Epoch:[1/5](800/120068) loss:5.003 lr:0.000000549998 epoch_Time:37585.0min:
+Epoch:[1/5](900/120068) loss:4.539 lr:0.000000549997 epoch_Time:37556.0min:

@@ -1,0 +1,26 @@
+Starting model evaluation...
+Using dataset: dataset/sft_aviationqa_kg.jsonl
+Traceback (most recent call last):
+  File "/root/MA680/minimind/eval_minimind_model.py", line 653, in <module>
+    main()
+  File "/root/MA680/minimind/eval_minimind_model.py", line 645, in main
+    evaluator.run_evaluation()
+  File "/root/MA680/minimind/eval_minimind_model.py", line 571, in run_evaluation
+    metrics = self.evaluate_model()
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/MA680/minimind/eval_minimind_model.py", line 381, in evaluate_model
+    test_data = self.load_test_data()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/MA680/minimind/eval_minimind_model.py", line 155, in load_test_data
+    data = json.loads(line.strip())
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

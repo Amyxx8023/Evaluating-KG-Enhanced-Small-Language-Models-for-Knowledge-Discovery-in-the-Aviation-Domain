@@ -1,0 +1,45 @@
+开始模型评估...
+使用数据集: dataset/pretrain_hq.jsonl
+加载了 1000 条测试数据
+生成预测和评估:   0% 0/1000 [00:00<?, ?it/s]
+程序执行出错: 'NoneType' object has no attribute 'shape'
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/MA680/minimind/eval_minimind_model.py", line 637, in main
+    evaluator.run_evaluation()
+  File "/content/drive/MyDrive/MA680/minimind/eval_minimind_model.py", line 565, in run_evaluation
+    metrics = self.evaluate_model()
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/content/drive/MyDrive/MA680/minimind/eval_minimind_model.py", line 390, in evaluate_model
+    prediction = self.generate_response(input_text)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/drive/MyDrive/MA680/minimind/eval_minimind_model.py", line 217, in generate_response
+    generated_ids = self.model.generate(
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/generation/utils.py", line 2539, in generate
+    result = self._sample(
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/generation/utils.py", line 2867, in _sample
+    outputs = self(**model_inputs, return_dict=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/drive/MyDrive/MA680/minimind/model/model_minimind.py", line 433, in forward
+    h, past_kvs, aux_loss = self.model(
+                            ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/drive/MyDrive/MA680/minimind/model/model_minimind.py", line 384, in forward
+    start_pos = past_key_values[0][0].shape[1] if past_key_values[0] is not None else 0
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'shape'

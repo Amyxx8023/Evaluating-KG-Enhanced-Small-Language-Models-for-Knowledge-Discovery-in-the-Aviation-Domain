@@ -1,0 +1,23 @@
+2025-09-10 17:45:47,349 INFO    MainThread:3834 [wandb_setup.py:_flush():81] Current SDK version is 0.21.3
+2025-09-10 17:45:47,350 INFO    MainThread:3834 [wandb_setup.py:_flush():81] Configure stats pid to 3834
+2025-09-10 17:45:47,351 INFO    MainThread:3834 [wandb_setup.py:_flush():81] Loading settings from /root/.config/wandb/settings
+2025-09-10 17:45:47,351 INFO    MainThread:3834 [wandb_setup.py:_flush():81] Loading settings from /content/drive/MyDrive/MA680/minimind/trainer/wandb/settings
+2025-09-10 17:45:47,352 INFO    MainThread:3834 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-09-10 17:45:47,352 INFO    MainThread:3834 [wandb_init.py:setup_run_log_directory():686] Logging user logs to /content/drive/MyDrive/MA680/minimind/trainer/wandb/run-20250910_174547-1gh45mtg/logs/debug.log
+2025-09-10 17:45:47,353 INFO    MainThread:3834 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to /content/drive/MyDrive/MA680/minimind/trainer/wandb/run-20250910_174547-1gh45mtg/logs/debug-internal.log
+2025-09-10 17:45:47,353 INFO    MainThread:3834 [wandb_init.py:init():813] calling init triggers
+2025-09-10 17:45:47,353 INFO    MainThread:3834 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-09-10 17:45:47,353 INFO    MainThread:3834 [wandb_init.py:init():854] starting backend
+2025-09-10 17:45:47,771 INFO    MainThread:3834 [wandb_init.py:init():857] sending inform_init request
+2025-09-10 17:45:47,898 INFO    MainThread:3834 [wandb_init.py:init():865] backend started and connected
+2025-09-10 17:45:47,900 INFO    MainThread:3834 [wandb_init.py:init():936] updated telemetry
+2025-09-10 17:45:52,617 INFO    MainThread:3834 [wandb_init.py:init():960] communicating run to backend with 90.0 second timeout
+2025-09-10 17:45:52,752 INFO    MainThread:3834 [wandb_init.py:init():1011] starting run threads in backend
+2025-09-10 17:45:53,282 INFO    MainThread:3834 [wandb_run.py:_console_start():2494] atexit reg
+2025-09-10 17:45:53,282 INFO    MainThread:3834 [wandb_run.py:_redirect():2342] redirect: wrap_raw
+2025-09-10 17:45:53,283 INFO    MainThread:3834 [wandb_run.py:_redirect():2411] Wrapping output streams.
+2025-09-10 17:45:53,283 INFO    MainThread:3834 [wandb_run.py:_redirect():2434] Redirects installed.
+2025-09-10 17:45:53,290 INFO    MainThread:3834 [wandb_init.py:init():1057] run started, returning control to user process
+2025-09-10 18:32:57,625 INFO    wandb-AsyncioManager-main:3834 [service_client.py:_forward_responses():84] Reached EOF.
+2025-09-10 18:32:57,625 INFO    wandb-AsyncioManager-main:3834 [mailbox.py:close():137] Closing mailbox, abandoning 1 handles.

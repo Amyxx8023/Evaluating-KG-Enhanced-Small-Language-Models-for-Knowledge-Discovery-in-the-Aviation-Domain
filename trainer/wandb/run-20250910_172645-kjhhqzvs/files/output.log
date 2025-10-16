@@ -1,0 +1,17 @@
+LLM可训练总参数量：25.830 百万
+Epoch:[1/1](0/44160) loss:8.933 lr:0.000550000000 epoch_Time:1225.0min:
+Epoch:[1/1](100/44160) loss:6.460 lr:0.000549993674 epoch_Time:266.0min:
+Epoch:[1/1](200/44160) loss:6.329 lr:0.000549974695 epoch_Time:257.0min:
+Epoch:[1/1](300/44160) loss:6.844 lr:0.000549943065 epoch_Time:256.0min:
+Epoch:[1/1](400/44160) loss:5.827 lr:0.000549898786 epoch_Time:254.0min:
+Epoch:[1/1](500/44160) loss:6.115 lr:0.000549841859 epoch_Time:254.0min:
+Epoch:[1/1](600/44160) loss:5.887 lr:0.000549772287 epoch_Time:252.0min:
+Epoch:[1/1](700/44160) loss:5.269 lr:0.000549690074 epoch_Time:251.0min:
+Epoch:[1/1](800/44160) loss:5.163 lr:0.000549595224 epoch_Time:251.0min:
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/MA680/minimind/trainer/train_pretrain.py", line 198, in <module>
+    train_epoch(epoch, wandb)
+  File "/content/drive/MyDrive/MA680/minimind/trainer/train_pretrain.py", line 36, in train_epoch
+    X = X.to(args.device)
+        ^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

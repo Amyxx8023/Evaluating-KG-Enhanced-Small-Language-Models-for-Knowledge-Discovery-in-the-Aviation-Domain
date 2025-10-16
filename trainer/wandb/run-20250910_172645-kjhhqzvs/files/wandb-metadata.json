@@ -1,0 +1,43 @@
+{
+  "os": "Linux-6.1.123+-x86_64-with-glibc2.35",
+  "python": "CPython 3.12.11",
+  "startedAt": "2025-09-10T17:26:45.298024Z",
+  "args": [
+    "--use_wandb"
+  ],
+  "program": "/content/drive/MyDrive/MA680/minimind/trainer/train_pretrain.py",
+  "codePath": "trainer/train_pretrain.py",
+  "codePathLocal": "train_pretrain.py",
+  "git": {
+    "remote": "https://github.com/jingyaogong/minimind.git",
+    "commit": "561979c7e34ed48bce320598952d892dce33ccd6"
+  },
+  "email": "amy.xiongxu@gmail.com",
+  "root": "/content/drive/MyDrive/MA680/minimind/trainer",
+  "host": "33ea763ca797",
+  "executable": "/usr/bin/python3",
+  "cpu_count": 1,
+  "cpu_count_logical": 2,
+  "gpu": "Tesla T4",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "253055008768",
+      "used": "55402348544"
+    }
+  },
+  "memory": {
+    "total": "13608361984"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "Tesla T4",
+      "memoryTotal": "16106127360",
+      "cudaCores": 2560,
+      "architecture": "Turing",
+      "uuid": "GPU-5979b559-f135-9435-1681-491c7a90601a"
+    }
+  ],
+  "cudaVersion": "12.4",
+  "writerId": "6x13j9der5xy7ehlfodrahxt7ajcwfwn"
+}

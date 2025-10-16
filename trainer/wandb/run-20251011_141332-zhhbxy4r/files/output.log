@@ -1,0 +1,37 @@
+LLM可训练总参数量：25.830 百万
+Epoch:[1/5](0/120068) loss:6.813 lr:0.000000550000 epoch_Time:32705.0min:
+Epoch:[1/5](100/120068) loss:6.636 lr:0.000000550000 epoch_Time:864.0min:
+Epoch:[1/5](200/120068) loss:5.840 lr:0.000000550000 epoch_Time:702.0min:
+Epoch:[1/5](300/120068) loss:5.446 lr:0.000000550000 epoch_Time:647.0min:
+Epoch:[1/5](400/120068) loss:6.741 lr:0.000000549999 epoch_Time:619.0min:
+Epoch:[1/5](500/120068) loss:6.807 lr:0.000000549999 epoch_Time:603.0min:
+Epoch:[1/5](600/120068) loss:4.771 lr:0.000000549999 epoch_Time:593.0min:
+Epoch:[1/5](700/120068) loss:6.809 lr:0.000000549998 epoch_Time:585.0min:
+Epoch:[1/5](800/120068) loss:5.006 lr:0.000000549998 epoch_Time:580.0min:
+Epoch:[1/5](900/120068) loss:4.541 lr:0.000000549997 epoch_Time:575.0min:
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x0000027F85BADEE0>
+Traceback (most recent call last):
+  File "C:\Users\ccf\.conda\envs\llmpytorch\Lib\site-packages\torch\utils\data\dataloader.py", line 1604, in __del__
+    self._shutdown_workers()
+  File "C:\Users\ccf\.conda\envs\llmpytorch\Lib\site-packages\torch\utils\data\dataloader.py", line 1568, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "C:\Users\ccf\.conda\envs\llmpytorch\Lib\multiprocessing\process.py", line 149, in join
+    res = self._popen.wait(timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ccf\.conda\envs\llmpytorch\Lib\multiprocessing\popen_spawn_win32.py", line 112, in wait
+    res = _winapi.WaitForSingleObject(int(self._handle), msecs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:
+Traceback (most recent call last):
+  File "C:\codekg\dmxllmproject\minimindtrain\trainer\train_full_sft.py", line 203, in <module>
+    train_epoch(epoch, wandb)
+  File "C:\codekg\dmxllmproject\minimindtrain\trainer\train_full_sft.py", line 55, in train_epoch
+    scaler.scale(loss).backward()
+  File "C:\Users\ccf\.conda\envs\llmpytorch\Lib\site-packages\torch\_tensor.py", line 581, in backward
+    torch.autograd.backward(
+  File "C:\Users\ccf\.conda\envs\llmpytorch\Lib\site-packages\torch\autograd\__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "C:\Users\ccf\.conda\envs\llmpytorch\Lib\site-packages\torch\autograd\graph.py", line 825, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

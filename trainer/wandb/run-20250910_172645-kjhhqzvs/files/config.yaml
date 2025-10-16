@@ -1,0 +1,72 @@
+_wandb:
+    value:
+        cli_version: 0.21.3
+        e:
+            6x13j9der5xy7ehlfodrahxt7ajcwfwn:
+                args:
+                    - --use_wandb
+                codePath: trainer/train_pretrain.py
+                codePathLocal: train_pretrain.py
+                cpu_count: 1
+                cpu_count_logical: 2
+                cudaVersion: "12.4"
+                disk:
+                    /:
+                        total: "253055008768"
+                        used: "55402348544"
+                email: amy.xiongxu@gmail.com
+                executable: /usr/bin/python3
+                git:
+                    commit: 561979c7e34ed48bce320598952d892dce33ccd6
+                    remote: https://github.com/jingyaogong/minimind.git
+                gpu: Tesla T4
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-5979b559-f135-9435-1681-491c7a90601a
+                host: 33ea763ca797
+                memory:
+                    total: "13608361984"
+                os: Linux-6.1.123+-x86_64-with-glibc2.35
+                program: /content/drive/MyDrive/MA680/minimind/trainer/train_pretrain.py
+                python: CPython 3.12.11
+                root: /content/drive/MyDrive/MA680/minimind/trainer
+                startedAt: "2025-09-10T17:26:45.298024Z"
+                writerId: 6x13j9der5xy7ehlfodrahxt7ajcwfwn
+        m: []
+        python_version: 3.12.11
+        t:
+            "1":
+                - 1
+                - 2
+                - 3
+                - 5
+                - 11
+                - 12
+                - 41
+                - 49
+                - 53
+                - 71
+                - 105
+            "2":
+                - 1
+                - 2
+                - 3
+                - 5
+                - 11
+                - 12
+                - 41
+                - 49
+                - 53
+                - 71
+                - 105
+            "3":
+                - 13
+            "4": 3.12.11
+            "5": 0.21.3
+            "6": 4.56.1
+            "12": 0.21.3
+            "13": linux-x86_64

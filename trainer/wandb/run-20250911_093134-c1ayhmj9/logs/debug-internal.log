@@ -1,0 +1,12 @@
+{"time":"2025-09-11T09:31:35.048063868Z","level":"INFO","msg":"stream: starting","core version":"0.21.3"}
+{"time":"2025-09-11T09:31:35.189851059Z","level":"INFO","msg":"stream: created new stream","id":"c1ayhmj9"}
+{"time":"2025-09-11T09:31:35.190464836Z","level":"INFO","msg":"stream: started","id":"c1ayhmj9"}
+{"time":"2025-09-11T09:31:35.190511627Z","level":"INFO","msg":"writer: started","stream_id":"c1ayhmj9"}
+{"time":"2025-09-11T09:31:35.190517307Z","level":"INFO","msg":"handler: started","stream_id":"c1ayhmj9"}
+{"time":"2025-09-11T09:31:35.190524504Z","level":"INFO","msg":"sender: started","stream_id":"c1ayhmj9"}
+{"time":"2025-09-11T11:24:20.939563832Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 172.28.0.12:44036->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-09-11T12:57:53.817644233Z","level":"INFO","msg":"stream: closing","id":"c1ayhmj9"}
+{"time":"2025-09-11T12:57:54.053301627Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-11T12:57:54.274115794Z","level":"INFO","msg":"handler: closed","stream_id":"c1ayhmj9"}
+{"time":"2025-09-11T12:57:54.286647665Z","level":"INFO","msg":"sender: closed","stream_id":"c1ayhmj9"}
+{"time":"2025-09-11T12:57:54.286795421Z","level":"INFO","msg":"stream: closed","id":"c1ayhmj9"}

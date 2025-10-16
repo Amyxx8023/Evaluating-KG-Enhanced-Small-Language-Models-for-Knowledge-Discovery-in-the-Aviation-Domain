@@ -1,0 +1,15 @@
+{"time":"2025-10-11T14:12:19.2030789+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\codekg\\dmxllmproject\\minimindtrain\\trainer\\wandb\\run-20251011_141218-vlinujzo\\logs\\debug-core.log"}
+{"time":"2025-10-11T14:12:19.549229+08:00","level":"INFO","msg":"created new stream","id":"vlinujzo"}
+{"time":"2025-10-11T14:12:19.549229+08:00","level":"INFO","msg":"stream: started","id":"vlinujzo"}
+{"time":"2025-10-11T14:12:19.549229+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"vlinujzo"}
+{"time":"2025-10-11T14:12:19.549229+08:00","level":"INFO","msg":"handler: started","stream_id":"vlinujzo"}
+{"time":"2025-10-11T14:12:19.549229+08:00","level":"INFO","msg":"sender: started","stream_id":"vlinujzo"}
+{"time":"2025-10-11T14:12:20.1739319+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-10-11T14:12:48.7126236+08:00","level":"INFO","msg":"stream: closing","id":"vlinujzo"}
+{"time":"2025-10-11T14:12:48.7126236+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-10-11T14:12:48.7131778+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-10-11T14:12:50.2735596+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-11T14:12:51.7108506+08:00","level":"INFO","msg":"handler: closed","stream_id":"vlinujzo"}
+{"time":"2025-10-11T14:12:51.7113544+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vlinujzo"}
+{"time":"2025-10-11T14:12:51.7113544+08:00","level":"INFO","msg":"sender: closed","stream_id":"vlinujzo"}
+{"time":"2025-10-11T14:12:51.7113544+08:00","level":"INFO","msg":"stream: closed","id":"vlinujzo"}

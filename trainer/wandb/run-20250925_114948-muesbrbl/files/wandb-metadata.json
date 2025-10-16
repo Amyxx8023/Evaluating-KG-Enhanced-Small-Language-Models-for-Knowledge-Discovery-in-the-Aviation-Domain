@@ -1,0 +1,51 @@
+{
+  "os":  "Linux-6.6.97+-x86_64-with-glibc2.35",
+  "python":  "CPython 3.12.11",
+  "startedAt":  "2025-09-25T11:49:48.599076Z",
+  "args":  [
+    "--data_path",
+    "../dataset/sft_aviationqa_kg.jsonl",
+    "--model_name",
+    "full_sft_kg_enhanced",
+    "--epochs",
+    "5",
+    "--batch_size",
+    "8",
+    "--use_wandb"
+  ],
+  "program":  "/content/drive/MyDrive/MA680/minimind/trainer/train_full_sft.py",
+  "codePath":  "trainer/train_full_sft.py",
+  "codePathLocal":  "train_full_sft.py",
+  "git":  {
+    "remote":  "https://github.com/jingyaogong/minimind.git",
+    "commit":  "561979c7e34ed48bce320598952d892dce33ccd6"
+  },
+  "email":  "amy.xiongxu@gmail.com",
+  "root":  "/content/drive/MyDrive/MA680/minimind/trainer",
+  "host":  "520bba9c9dd7",
+  "executable":  "/usr/bin/python3",
+  "cpu_count":  1,
+  "cpu_count_logical":  2,
+  "gpu":  "Tesla T4",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "253055008768",
+      "used":  "42233077760"
+    }
+  },
+  "memory":  {
+    "total":  "13605650432"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Tesla T4",
+      "memoryTotal":  "16106127360",
+      "cudaCores":  2560,
+      "architecture":  "Turing",
+      "uuid":  "GPU-f5b5e006-a886-84a8-a344-e69091118d71"
+    }
+  ],
+  "cudaVersion":  "12.4",
+  "writerId":  "to6zgfeou9jvnskvhnzboxngxxy84hwo"
+}

@@ -1,0 +1,33 @@
+{
+  "os": "Linux-6.1.123+-x86_64-with-glibc2.35",
+  "python": "CPython 3.12.11",
+  "startedAt": "2025-09-11T15:07:29.148413Z",
+  "args": [
+    "--model_mode",
+    "0",
+    "--use_wandb"
+  ],
+  "program": "/content/drive/MyDrive/MA680/minimind/eval_minimind_model.py",
+  "codePath": "eval_minimind_model.py",
+  "codePathLocal": "eval_minimind_model.py",
+  "git": {
+    "remote": "https://github.com/jingyaogong/minimind.git",
+    "commit": "561979c7e34ed48bce320598952d892dce33ccd6"
+  },
+  "email": "amy.xiongxu@gmail.com",
+  "root": "/content/drive/MyDrive/MA680/minimind",
+  "host": "d25bb0af8061",
+  "executable": "/usr/bin/python3",
+  "cpu_count": 1,
+  "cpu_count_logical": 2,
+  "disk": {
+    "/": {
+      "total": "242486079488",
+      "used": "50954395648"
+    }
+  },
+  "memory": {
+    "total": "13608370176"
+  },
+  "writerId": "rykwjglc2zhb329o8dbjjq5d05ff8byl"
+}

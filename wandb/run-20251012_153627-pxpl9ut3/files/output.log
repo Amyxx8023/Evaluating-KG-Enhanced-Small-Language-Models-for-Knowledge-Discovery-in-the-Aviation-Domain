@@ -1,0 +1,737 @@
+Starting model evaluation...
+Using dataset: dataset/sft_aviationqa_kg.jsonl
+Loaded 2000 test samples
+Generating predictions and evaluating:   2%|  | 48/2000 [00:04<02:17, 14.20it/s]
+
+=== Example 1 ===
+Input: What was the VFR Approach/Landing of the accident no. WPR20LA038?
+Reference: Forced landing
+Prediction: Full stop;Traffic pattern
+--------------------------------------------------
+
+=== Example 2 ===
+Input: What was the Observation Facility, Elevation of the accident no. CEN14LA327?
+Reference: IND,797 ft msl
+Prediction: KBOT,43 ft msl
+--------------------------------------------------
+
+=== Example 3 ===
+Input: What was the Meteorological Information and Flight Plan Conditions at Accident Site of the accident no. CEN21FA345?
+Reference: VMC
+Prediction: VMC
+--------------------------------------------------
+
+=== Example 4 ===
+Input: What was the Latitude, Longitude of the accident no. DCA22LA001?
+Reference: 28.429399,-81.308998
+Prediction: 38.459436,-88.669444
+--------------------------------------------------
+
+=== Example 5 ===
+Input: What is the model of the aircraft for the accident no. ANC16FA065?
+Reference: HEFTY Polar Cub
+Prediction: Cessna 172B
+--------------------------------------------------
+
+Calculating evaluation metrics for batch 1...
+
+============================================================
+Batch 1 Evaluation Results (Processed 50 samples)
+============================================================
+Exact Match Accuracy:  0.2200
+Token-level Accuracy:  0.2542
+BLEU Score:           0.1454
+ROUGE-1 F1:          0.4055
+ROUGE-2 F1:          0.1462
+ROUGE-L F1:          0.4055
+Semantic Similarity:  0.3498
+Avg Prediction Length: 3.92 words
+Avg Reference Length:  4.68 words
+Length Ratio:         0.8376
+============================================================
+
+Calculating evaluation metrics for batch 2...
+
+============================================================
+Batch 2 Evaluation Results (Processed 100 samples)
+============================================================
+Exact Match Accuracy:  0.1900
+Token-level Accuracy:  0.1191
+BLEU Score:           0.1400
+ROUGE-1 F1:          0.3595
+ROUGE-2 F1:          0.1451
+ROUGE-L F1:          0.3569
+Semantic Similarity:  0.3181
+Avg Prediction Length: 4.75 words
+Avg Reference Length:  8.51 words
+Length Ratio:         0.5582
+============================================================
+
+Calculating evaluation metrics for batch 3...
+
+============================================================
+Batch 3 Evaluation Results (Processed 150 samples)
+============================================================
+Exact Match Accuracy:  0.2400
+Token-level Accuracy:  0.1751
+BLEU Score:           0.1401
+ROUGE-1 F1:          0.3856
+ROUGE-2 F1:          0.1511
+ROUGE-L F1:          0.3832
+Semantic Similarity:  0.3479
+Avg Prediction Length: 4.10 words
+Avg Reference Length:  6.61 words
+Length Ratio:         0.6206
+============================================================
+
+Calculating evaluation metrics for batch 4...
+
+============================================================
+Batch 4 Evaluation Results (Processed 200 samples)
+============================================================
+Exact Match Accuracy:  0.2500
+Token-level Accuracy:  0.1968
+BLEU Score:           0.1461
+ROUGE-1 F1:          0.3906
+ROUGE-2 F1:          0.1549
+ROUGE-L F1:          0.3888
+Semantic Similarity:  0.3568
+Avg Prediction Length: 3.87 words
+Avg Reference Length:  5.74 words
+Length Ratio:         0.6742
+============================================================
+
+Calculating evaluation metrics for batch 5...
+
+============================================================
+Batch 5 Evaluation Results (Processed 250 samples)
+============================================================
+Exact Match Accuracy:  0.2720
+Token-level Accuracy:  0.2302
+BLEU Score:           0.1604
+ROUGE-1 F1:          0.4091
+ROUGE-2 F1:          0.1704
+ROUGE-L F1:          0.4074
+Semantic Similarity:  0.3791
+Avg Prediction Length: 4.64 words
+Avg Reference Length:  6.42 words
+Length Ratio:         0.7227
+============================================================
+
+Calculating evaluation metrics for batch 6...
+
+============================================================
+Batch 6 Evaluation Results (Processed 300 samples)
+============================================================
+Exact Match Accuracy:  0.2800
+Token-level Accuracy:  0.2621
+BLEU Score:           0.1697
+ROUGE-1 F1:          0.4228
+ROUGE-2 F1:          0.1855
+ROUGE-L F1:          0.4214
+Semantic Similarity:  0.3930
+Avg Prediction Length: 4.75 words
+Avg Reference Length:  6.39 words
+Length Ratio:         0.7430
+============================================================
+
+Calculating evaluation metrics for batch 7...
+
+============================================================
+Batch 7 Evaluation Results (Processed 350 samples)
+============================================================
+Exact Match Accuracy:  0.2800
+Token-level Accuracy:  0.2237
+BLEU Score:           0.1667
+ROUGE-1 F1:          0.4317
+ROUGE-2 F1:          0.1785
+ROUGE-L F1:          0.4304
+Semantic Similarity:  0.3970
+Avg Prediction Length: 5.19 words
+Avg Reference Length:  7.65 words
+Length Ratio:         0.6786
+============================================================
+
+Calculating evaluation metrics for batch 8...
+
+============================================================
+Batch 8 Evaluation Results (Processed 400 samples)
+============================================================
+Exact Match Accuracy:  0.2900
+Token-level Accuracy:  0.2346
+BLEU Score:           0.1675
+ROUGE-1 F1:          0.4426
+ROUGE-2 F1:          0.1852
+ROUGE-L F1:          0.4414
+Semantic Similarity:  0.4072
+Avg Prediction Length: 4.92 words
+Avg Reference Length:  7.15 words
+Length Ratio:         0.6891
+============================================================
+
+Calculating evaluation metrics for batch 9...
+
+============================================================
+Batch 9 Evaluation Results (Processed 450 samples)
+============================================================
+Exact Match Accuracy:  0.2933
+Token-level Accuracy:  0.2371
+BLEU Score:           0.1663
+ROUGE-1 F1:          0.4412
+ROUGE-2 F1:          0.1826
+ROUGE-L F1:          0.4402
+Semantic Similarity:  0.4063
+Avg Prediction Length: 4.70 words
+Avg Reference Length:  6.68 words
+Length Ratio:         0.7042
+============================================================
+
+Calculating evaluation metrics for batch 10...
+
+============================================================
+Batch 10 Evaluation Results (Processed 500 samples)
+============================================================
+Exact Match Accuracy:  0.2980
+Token-level Accuracy:  0.2412
+BLEU Score:           0.1663
+ROUGE-1 F1:          0.4459
+ROUGE-2 F1:          0.1768
+ROUGE-L F1:          0.4450
+Semantic Similarity:  0.4107
+Avg Prediction Length: 4.58 words
+Avg Reference Length:  6.36 words
+Length Ratio:         0.7194
+============================================================
+
+Calculating evaluation metrics for batch 11...
+
+============================================================
+Batch 11 Evaluation Results (Processed 550 samples)
+============================================================
+Exact Match Accuracy:  0.3000
+Token-level Accuracy:  0.2474
+BLEU Score:           0.1684
+ROUGE-1 F1:          0.4462
+ROUGE-2 F1:          0.1748
+ROUGE-L F1:          0.4454
+Semantic Similarity:  0.4118
+Avg Prediction Length: 4.39 words
+Avg Reference Length:  6.02 words
+Length Ratio:         0.7287
+============================================================
+
+Calculating evaluation metrics for batch 12...
+
+============================================================
+Batch 12 Evaluation Results (Processed 600 samples)
+============================================================
+Exact Match Accuracy:  0.3017
+Token-level Accuracy:  0.2415
+BLEU Score:           0.1637
+ROUGE-1 F1:          0.4455
+ROUGE-2 F1:          0.1657
+ROUGE-L F1:          0.4445
+Semantic Similarity:  0.4105
+Avg Prediction Length: 4.34 words
+Avg Reference Length:  5.92 words
+Length Ratio:         0.7319
+============================================================
+
+Calculating evaluation metrics for batch 13...
+
+============================================================
+Batch 13 Evaluation Results (Processed 650 samples)
+============================================================
+Exact Match Accuracy:  0.2985
+Token-level Accuracy:  0.2397
+BLEU Score:           0.1631
+ROUGE-1 F1:          0.4454
+ROUGE-2 F1:          0.1676
+ROUGE-L F1:          0.4443
+Semantic Similarity:  0.4101
+Avg Prediction Length: 4.51 words
+Avg Reference Length:  6.17 words
+Length Ratio:         0.7306
+============================================================
+
+Calculating evaluation metrics for batch 14...
+
+============================================================
+Batch 14 Evaluation Results (Processed 700 samples)
+============================================================
+Exact Match Accuracy:  0.2957
+Token-level Accuracy:  0.2456
+BLEU Score:           0.1639
+ROUGE-1 F1:          0.4431
+ROUGE-2 F1:          0.1672
+ROUGE-L F1:          0.4421
+Semantic Similarity:  0.4085
+Avg Prediction Length: 4.46 words
+Avg Reference Length:  6.02 words
+Length Ratio:         0.7407
+============================================================
+
+Calculating evaluation metrics for batch 15...
+
+============================================================
+Batch 15 Evaluation Results (Processed 750 samples)
+============================================================
+Exact Match Accuracy:  0.2933
+Token-level Accuracy:  0.2447
+BLEU Score:           0.1631
+ROUGE-1 F1:          0.4475
+ROUGE-2 F1:          0.1689
+ROUGE-L F1:          0.4464
+Semantic Similarity:  0.4106
+Avg Prediction Length: 4.51 words
+Avg Reference Length:  6.04 words
+Length Ratio:         0.7471
+============================================================
+
+Calculating evaluation metrics for batch 16...
+
+============================================================
+Batch 16 Evaluation Results (Processed 800 samples)
+============================================================
+Exact Match Accuracy:  0.2950
+Token-level Accuracy:  0.2504
+BLEU Score:           0.1644
+ROUGE-1 F1:          0.4500
+ROUGE-2 F1:          0.1717
+ROUGE-L F1:          0.4490
+Semantic Similarity:  0.4127
+Avg Prediction Length: 4.63 words
+Avg Reference Length:  6.01 words
+Length Ratio:         0.7705
+============================================================
+
+Calculating evaluation metrics for batch 17...
+
+============================================================
+Batch 17 Evaluation Results (Processed 850 samples)
+============================================================
+Exact Match Accuracy:  0.3024
+Token-level Accuracy:  0.2525
+BLEU Score:           0.1637
+ROUGE-1 F1:          0.4541
+ROUGE-2 F1:          0.1720
+ROUGE-L F1:          0.4527
+Semantic Similarity:  0.4173
+Avg Prediction Length: 4.52 words
+Avg Reference Length:  5.79 words
+Length Ratio:         0.7798
+============================================================
+
+Calculating evaluation metrics for batch 18...
+
+============================================================
+Batch 18 Evaluation Results (Processed 900 samples)
+============================================================
+Exact Match Accuracy:  0.3044
+Token-level Accuracy:  0.2540
+BLEU Score:           0.1642
+ROUGE-1 F1:          0.4583
+ROUGE-2 F1:          0.1709
+ROUGE-L F1:          0.4570
+Semantic Similarity:  0.4208
+Avg Prediction Length: 4.53 words
+Avg Reference Length:  5.74 words
+Length Ratio:         0.7898
+============================================================
+
+Calculating evaluation metrics for batch 19...
+
+============================================================
+Batch 19 Evaluation Results (Processed 950 samples)
+============================================================
+Exact Match Accuracy:  0.3032
+Token-level Accuracy:  0.2511
+BLEU Score:           0.1643
+ROUGE-1 F1:          0.4593
+ROUGE-2 F1:          0.1724
+ROUGE-L F1:          0.4580
+Semantic Similarity:  0.4216
+Avg Prediction Length: 4.52 words
+Avg Reference Length:  5.73 words
+Length Ratio:         0.7885
+============================================================
+
+Calculating evaluation metrics for batch 20...
+
+============================================================
+Batch 20 Evaluation Results (Processed 1000 samples)
+============================================================
+Exact Match Accuracy:  0.3050
+Token-level Accuracy:  0.2467
+BLEU Score:           0.1627
+ROUGE-1 F1:          0.4609
+ROUGE-2 F1:          0.1703
+ROUGE-L F1:          0.4596
+Semantic Similarity:  0.4226
+Avg Prediction Length: 4.48 words
+Avg Reference Length:  5.70 words
+Length Ratio:         0.7865
+============================================================
+
+Calculating evaluation metrics for batch 21...
+
+============================================================
+Batch 21 Evaluation Results (Processed 1050 samples)
+============================================================
+Exact Match Accuracy:  0.3019
+Token-level Accuracy:  0.2434
+BLEU Score:           0.1640
+ROUGE-1 F1:          0.4605
+ROUGE-2 F1:          0.1726
+ROUGE-L F1:          0.4593
+Semantic Similarity:  0.4210
+Avg Prediction Length: 4.65 words
+Avg Reference Length:  5.88 words
+Length Ratio:         0.7909
+============================================================
+
+Calculating evaluation metrics for batch 22...
+
+============================================================
+Batch 22 Evaluation Results (Processed 1100 samples)
+============================================================
+Exact Match Accuracy:  0.2955
+Token-level Accuracy:  0.2384
+BLEU Score:           0.1635
+ROUGE-1 F1:          0.4555
+ROUGE-2 F1:          0.1754
+ROUGE-L F1:          0.4543
+Semantic Similarity:  0.4155
+Avg Prediction Length: 4.71 words
+Avg Reference Length:  6.04 words
+Length Ratio:         0.7796
+============================================================
+
+Calculating evaluation metrics for batch 23...
+
+============================================================
+Batch 23 Evaluation Results (Processed 1150 samples)
+============================================================
+Exact Match Accuracy:  0.2939
+Token-level Accuracy:  0.2463
+BLEU Score:           0.1635
+ROUGE-1 F1:          0.4559
+ROUGE-2 F1:          0.1752
+ROUGE-L F1:          0.4546
+Semantic Similarity:  0.4152
+Avg Prediction Length: 4.85 words
+Avg Reference Length:  6.18 words
+Length Ratio:         0.7840
+============================================================
+
+Calculating evaluation metrics for batch 24...
+
+============================================================
+Batch 24 Evaluation Results (Processed 1200 samples)
+============================================================
+Exact Match Accuracy:  0.2900
+Token-level Accuracy:  0.2410
+BLEU Score:           0.1648
+ROUGE-1 F1:          0.4542
+ROUGE-2 F1:          0.1773
+ROUGE-L F1:          0.4528
+Semantic Similarity:  0.4127
+Avg Prediction Length: 4.96 words
+Avg Reference Length:  6.30 words
+Length Ratio:         0.7869
+============================================================
+
+Calculating evaluation metrics for batch 25...
+
+============================================================
+Batch 25 Evaluation Results (Processed 1250 samples)
+============================================================
+Exact Match Accuracy:  0.2920
+Token-level Accuracy:  0.2393
+BLEU Score:           0.1631
+ROUGE-1 F1:          0.4545
+ROUGE-2 F1:          0.1739
+ROUGE-L F1:          0.4531
+Semantic Similarity:  0.4137
+Avg Prediction Length: 4.91 words
+Avg Reference Length:  6.33 words
+Length Ratio:         0.7759
+============================================================
+
+Calculating evaluation metrics for batch 26...
+
+============================================================
+Batch 26 Evaluation Results (Processed 1300 samples)
+============================================================
+Exact Match Accuracy:  0.2962
+Token-level Accuracy:  0.2303
+BLEU Score:           0.1648
+ROUGE-1 F1:          0.4577
+ROUGE-2 F1:          0.1759
+ROUGE-L F1:          0.4564
+Semantic Similarity:  0.4172
+Avg Prediction Length: 5.02 words
+Avg Reference Length:  6.77 words
+Length Ratio:         0.7416
+============================================================
+
+Calculating evaluation metrics for batch 27...
+
+============================================================
+Batch 27 Evaluation Results (Processed 1350 samples)
+============================================================
+Exact Match Accuracy:  0.2956
+Token-level Accuracy:  0.2403
+BLEU Score:           0.1671
+ROUGE-1 F1:          0.4607
+ROUGE-2 F1:          0.1794
+ROUGE-L F1:          0.4594
+Semantic Similarity:  0.4194
+Avg Prediction Length: 5.16 words
+Avg Reference Length:  6.84 words
+Length Ratio:         0.7543
+============================================================
+
+Calculating evaluation metrics for batch 28...
+
+============================================================
+Batch 28 Evaluation Results (Processed 1400 samples)
+============================================================
+Exact Match Accuracy:  0.2914
+Token-level Accuracy:  0.2338
+BLEU Score:           0.1670
+ROUGE-1 F1:          0.4587
+ROUGE-2 F1:          0.1809
+ROUGE-L F1:          0.4573
+Semantic Similarity:  0.4163
+Avg Prediction Length: 5.25 words
+Avg Reference Length:  7.01 words
+Length Ratio:         0.7489
+============================================================
+
+Calculating evaluation metrics for batch 29...
+
+============================================================
+Batch 29 Evaluation Results (Processed 1450 samples)
+============================================================
+Exact Match Accuracy:  0.2924
+Token-level Accuracy:  0.2314
+BLEU Score:           0.1655
+ROUGE-1 F1:          0.4578
+ROUGE-2 F1:          0.1781
+ROUGE-L F1:          0.4564
+Semantic Similarity:  0.4155
+Avg Prediction Length: 5.17 words
+Avg Reference Length:  6.96 words
+Length Ratio:         0.7427
+============================================================
+
+Calculating evaluation metrics for batch 30...
+
+============================================================
+Batch 30 Evaluation Results (Processed 1500 samples)
+============================================================
+Exact Match Accuracy:  0.2887
+Token-level Accuracy:  0.2410
+BLEU Score:           0.1673
+ROUGE-1 F1:          0.4565
+ROUGE-2 F1:          0.1799
+ROUGE-L F1:          0.4551
+Semantic Similarity:  0.4137
+Avg Prediction Length: 5.24 words
+Avg Reference Length:  7.00 words
+Length Ratio:         0.7489
+============================================================
+
+Calculating evaluation metrics for batch 31...
+
+============================================================
+Batch 31 Evaluation Results (Processed 1550 samples)
+============================================================
+Exact Match Accuracy:  0.2845
+Token-level Accuracy:  0.2401
+BLEU Score:           0.1657
+ROUGE-1 F1:          0.4529
+ROUGE-2 F1:          0.1768
+ROUGE-L F1:          0.4517
+Semantic Similarity:  0.4099
+Avg Prediction Length: 5.17 words
+Avg Reference Length:  6.92 words
+Length Ratio:         0.7470
+============================================================
+
+Calculating evaluation metrics for batch 32...
+
+============================================================
+Batch 32 Evaluation Results (Processed 1600 samples)
+============================================================
+Exact Match Accuracy:  0.2819
+Token-level Accuracy:  0.2362
+BLEU Score:           0.1650
+ROUGE-1 F1:          0.4518
+ROUGE-2 F1:          0.1768
+ROUGE-L F1:          0.4504
+Semantic Similarity:  0.4081
+Avg Prediction Length: 5.22 words
+Avg Reference Length:  6.95 words
+Length Ratio:         0.7510
+============================================================
+
+Calculating evaluation metrics for batch 33...
+
+============================================================
+Batch 33 Evaluation Results (Processed 1650 samples)
+============================================================
+Exact Match Accuracy:  0.2812
+Token-level Accuracy:  0.2374
+BLEU Score:           0.1661
+ROUGE-1 F1:          0.4524
+ROUGE-2 F1:          0.1786
+ROUGE-L F1:          0.4510
+Semantic Similarity:  0.4085
+Avg Prediction Length: 5.20 words
+Avg Reference Length:  6.87 words
+Length Ratio:         0.7570
+============================================================
+
+Calculating evaluation metrics for batch 34...
+
+============================================================
+Batch 34 Evaluation Results (Processed 1700 samples)
+============================================================
+Exact Match Accuracy:  0.2794
+Token-level Accuracy:  0.2386
+BLEU Score:           0.1660
+ROUGE-1 F1:          0.4502
+ROUGE-2 F1:          0.1792
+ROUGE-L F1:          0.4489
+Semantic Similarity:  0.4064
+Avg Prediction Length: 5.19 words
+Avg Reference Length:  6.78 words
+Length Ratio:         0.7650
+============================================================
+
+Calculating evaluation metrics for batch 35...
+
+============================================================
+Batch 35 Evaluation Results (Processed 1750 samples)
+============================================================
+Exact Match Accuracy:  0.2771
+Token-level Accuracy:  0.2373
+BLEU Score:           0.1655
+ROUGE-1 F1:          0.4466
+ROUGE-2 F1:          0.1794
+ROUGE-L F1:          0.4452
+Semantic Similarity:  0.4032
+Avg Prediction Length: 5.22 words
+Avg Reference Length:  6.83 words
+Length Ratio:         0.7654
+============================================================
+
+Calculating evaluation metrics for batch 36...
+
+============================================================
+Batch 36 Evaluation Results (Processed 1800 samples)
+============================================================
+Exact Match Accuracy:  0.2744
+Token-level Accuracy:  0.2267
+BLEU Score:           0.1640
+ROUGE-1 F1:          0.4439
+ROUGE-2 F1:          0.1774
+ROUGE-L F1:          0.4426
+Semantic Similarity:  0.4000
+Avg Prediction Length: 5.28 words
+Avg Reference Length:  7.10 words
+Length Ratio:         0.7434
+============================================================
+
+Calculating evaluation metrics for batch 37...
+
+============================================================
+Batch 37 Evaluation Results (Processed 1850 samples)
+============================================================
+Exact Match Accuracy:  0.2730
+Token-level Accuracy:  0.2260
+BLEU Score:           0.1631
+ROUGE-1 F1:          0.4412
+ROUGE-2 F1:          0.1775
+ROUGE-L F1:          0.4399
+Semantic Similarity:  0.3975
+Avg Prediction Length: 5.28 words
+Avg Reference Length:  7.08 words
+Length Ratio:         0.7463
+============================================================
+
+Calculating evaluation metrics for batch 38...
+
+============================================================
+Batch 38 Evaluation Results (Processed 1900 samples)
+============================================================
+Exact Match Accuracy:  0.2695
+Token-level Accuracy:  0.2272
+BLEU Score:           0.1626
+ROUGE-1 F1:          0.4387
+ROUGE-2 F1:          0.1769
+ROUGE-L F1:          0.4374
+Semantic Similarity:  0.3946
+Avg Prediction Length: 5.29 words
+Avg Reference Length:  7.11 words
+Length Ratio:         0.7442
+============================================================
+
+Calculating evaluation metrics for batch 39...
+
+============================================================
+Batch 39 Evaluation Results (Processed 1950 samples)
+============================================================
+Exact Match Accuracy:  0.2718
+Token-level Accuracy:  0.2282
+BLEU Score:           0.1637
+ROUGE-1 F1:          0.4398
+ROUGE-2 F1:          0.1790
+ROUGE-L F1:          0.4385
+Semantic Similarity:  0.3960
+Avg Prediction Length: 5.24 words
+Avg Reference Length:  7.03 words
+Length Ratio:         0.7457
+============================================================
+
+Calculating evaluation metrics for batch 40...
+
+============================================================
+Batch 40 Evaluation Results (Processed 2000 samples)
+============================================================
+Exact Match Accuracy:  0.2700
+Token-level Accuracy:  0.2318
+BLEU Score:           0.1636
+ROUGE-1 F1:          0.4371
+ROUGE-2 F1:          0.1791
+ROUGE-L F1:          0.4358
+Semantic Similarity:  0.3937
+Avg Prediction Length: 5.20 words
+Avg Reference Length:  6.94 words
+Length Ratio:         0.7492
+============================================================
+
+Calculating final evaluation metrics...
+
+============================================================
+Model Evaluation Results
+============================================================
+Exact Match Accuracy:  0.2700
+Token-level Accuracy:  0.2318
+BLEU Score:           0.1636
+ROUGE-1 F1:          0.4371
+ROUGE-2 F1:          0.1791
+ROUGE-L F1:          0.4358
+Semantic Similarity:  0.3937
+Avg Prediction Length: 5.20 words
+Avg Reference Length:  6.94 words
+Length Ratio:         0.7492
+============================================================
+详细结果已保存到: eval_results/eval_mode1_h512_20251012_154112.json
+结果CSV已保存到: eval_results/eval_mode1_h512_20251012_154112.csv
+指标摘要已保存到: eval_results/eval_mode1_h512_20251012_154112_metrics.txt
+Results logged to wandb
+
+Evaluation completed, total time: 283.38 seconds

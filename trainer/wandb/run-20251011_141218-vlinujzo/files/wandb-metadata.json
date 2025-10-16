@@ -1,0 +1,49 @@
+{
+  "os":  "Windows-11-10.0.26100-SP0",
+  "python":  "CPython 3.12.7",
+  "startedAt":  "2025-10-11T06:12:19.200383Z",
+  "args":  [
+    "--data_path",
+    "../dataset/sft_aviationqa_kg.jsonl",
+    "--model_name",
+    "full_sft_kg_enhanced",
+    "--epochs",
+    "5",
+    "--batch_size",
+    "8",
+    "--use_wandb"
+  ],
+  "program":  "C:\\codekg\\dmxllmproject\\minimindtrain\\trainer\\train_full_sft.py",
+  "codePath":  "train_full_sft.py",
+  "email":  "qq404922381@163.com",
+  "root":  "C:\\codekg\\dmxllmproject\\minimindtrain\\trainer",
+  "host":  "ccf",
+  "executable":  "C:\\Users\\ccf\\.conda\\envs\\llmpytorch\\python.exe",
+  "codePathLocal":  "train_full_sft.py",
+  "cpu_count":  12,
+  "cpu_count_logical":  20,
+  "gpu":  "NVIDIA GeForce RTX 3060",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "1023060996096",
+      "used":  "782128099328"
+    }
+  },
+  "memory":  {
+    "total":  "68391665664"
+  },
+  "cpu":  {
+    "count":  12,
+    "countLogical":  20
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 3060",
+      "memoryTotal":  "12884901888",
+      "cudaCores":  3584,
+      "architecture":  "Ampere"
+    }
+  ],
+  "cudaVersion":  "12.9"
+}
